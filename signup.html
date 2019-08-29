@@ -40,12 +40,18 @@
                     <input type="button" id ="submit" onclick="writeUserData()" value="submit" />
                 </div>
                 <div class = "button6">
-                    <input type="button" id ="show" onclick="getData()" value="show data" />
+                    <input type="button" id ="show" onclick="ReadUserData()" value="show data" />
                 </div>
             </div> 
-            <p> <ol id="userlist"> </ol></p>   
+           
+                 
         </form>   
-        <p> <ol id="scorelist"> </ol></p>
+        <div class="displayui">
+        <ul id="userlist">
+            
+            </ul>
+            </div>
+        
         <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
 
