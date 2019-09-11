@@ -1,0 +1,118 @@
+<html>
+    <head>   <title>
+        new website
+    </title>
+    <link href="resume.css" type="text/css" rel="stylesheet">
+    </head>
+    <body style="background-color:crimson">
+        <h1 align="center"><u>
+            Resume
+            </u>
+        </h1>
+    <img src="rashmi.jpeg" align="left" style="width:200px" height="200">
+
+    
+        <p  title="About me"><b><fieldset><legend><u> About me </u></legend>
+           <span style="color:white"> 3rd year Computer-Science Engineering student.<br>
+            In past years, I have trained myself with Web development
+            & android development.I use Creative approach towards problem
+            solving.<br> I am very dynamic person and love to be 
+            part of different  activities in my college. I like to do event management
+            and to organise various functions. <br>
+            I love to lead whatever I do . Writing Poems occasionally is part of my hobby.
+            <br>
+            "I believe it's important to continue to grow and learn.<br>
+             I'm always looking for opportunities that can help me learn and grow<br>
+              at work and in my everyday life." I prefer straight<br> forward approach for whatever I am in. 
+              Good Communication Skills, Presentation Skills,<br> attitude towards leadership, authorisation and 
+              delegation, conflict<br> resolution and negotiation and a very good team worker</span>
+            </fieldset>  </b>
+          </p>
+     
+        <table border="02" align="left" bgcolor="#FFFF99">
+                <tr><th colspan="4">
+                        <h4><b><u>
+                   Knowledge</u> </b>
+                   </h4>
+                    </th></tr>
+            <tr id="heading">
+                <td>Qualification</td>
+                <td>Board</td>
+                <td>Percentage / Grades</td>
+                <td>Year</td>
+            </tr>
+            <tr>
+                    <td> B.Tech  (at present)  </td>
+                    <td>Gyan Ganga college of Technology(R.G.P.V)</td>
+                    <td>8.6 CGPA</td>
+                    <td>2021</td>
+                </tr>
+            <tr>
+                <td>H.S.C </td>
+                <td>C.B.S.E</td>
+                <td>66.6%</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>S.S.C</td>
+                <td>STATE Board</td>
+                <td>91.7%</td>
+                <td>2015</td>
+            </tr>  
+        </table> 
+
+        <ul align="center">
+            <u><span id="heading">  <h4 style="color:black"> Skills : </h4></span></u>
+            <li> <div class="skills">C :  <meter value="69" max="100"></meter></div> </li>
+            <li><div class="skills"> C++ :  <meter value="73" max="100"></meter></div></li>
+            <li> <div class="skills">Java :  <meter value="70" max="100"></meter> </div></li>
+            <li> <div class="skills">Android :  <meter value="53" max="100"></meter></div></li>
+            <li> <div class="skills">JavaScript :   <meter value="73" max="100"></meter></div></li>
+            <li><div class="skills"> PHP:    <meter value="48" max="100"></meter></div></li>
+        </ul>
+        <hr>
+        <ol>
+                <u><span id="heading">  <h2 style="color:white"> Additional Skills : </h2></span></u>
+                <li> MySQL & Firebase<br></li>
+                <li> Leadership & management skills<br></li> 
+                 <li>web development</li>
+
+        </ol>
+        <form bgcolor="#00ff00" >
+                <fieldset>
+                 <legend  style="color:white; font-size: 110%">feedback:</legend>
+                 Name: <input type="text" placeholder="enter your name" id="name"><br>
+                 Email: <input type="text" placeholder="enter your email" id="email"><br>
+                 message: <textarea rows="2" cols="20" id="msg"></textarea>
+                 date :<input type="date" id="date" >
+                 <div class = "button5">
+                        <input type="button" id ="submit" onclick="writeUserData()" value="submit" />
+                    </div>
+                </fieldset>
+               </form>
+               <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+     <script
+     src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+     crossorigin="anonymous"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAg9R07mlWirS-yWJCekxhAkmxMDJkZWFE",
+    authDomain: "testingweb-b7afa.firebaseapp.com",
+    databaseURL: "https://testingweb-b7afa.firebaseio.com",
+    projectId: "testingweb-b7afa",
+    storageBucket: "testingweb-b7afa.appspot.com",
+    messagingSenderId: "244103885308",
+    appId: "1:244103885308:web:d8dc596b81c8efc1648279"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+               <script src="resume.js"></script> 
+        </body>
+        </html>
